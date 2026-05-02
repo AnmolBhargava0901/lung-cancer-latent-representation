@@ -164,7 +164,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ## 📊 Results & Visualizations
 
-### Latent Space — PCA of Autoencoder Features
+### Latent Space — PCA of Autoencoder Features<img width="4164" height="1770" alt="dataset_comparison" src="https://github.com/user-attachments/assets/8a694310-d4cb-4987-b200-d4c9ec09883b" />
+
 
 ![Latent Space PCA](1_latent_space_pca.png)
 
@@ -204,10 +205,10 @@ This classification bridges the gap between computational analysis and **precisi
 
 ---
 
+
 ### Dataset Comparison
 
-![Dataset Comparison](<img width="4164" height="1770" alt="dataset_comparison" src="https://github.com/user-attachments/assets/60e0cd90-67bb-4e0c-b6e7-7ea516866f87" />
-)
+![Dataset Comparison](<img width="4164" height="1770" alt="dataset_comparison" src="https://github.com/user-attachments/assets/2b784c0b-bd18-476d-826a-c6c171b318dc" /> )
 
 > Side-by-side comparison of the USA (GSE10072) and India (GSE30118) datasets, representing different geographical populations used for training and external validation.
 
