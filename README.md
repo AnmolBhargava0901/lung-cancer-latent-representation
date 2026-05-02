@@ -166,7 +166,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Latent Space — PCA of Autoencoder Features
 
-![Latent Space PCA](1_latent_space_pca.png)
+![Latent Space PCA](1_latent_space_pca.png<img width="4470" height="1850" alt="1_latent_space_pca" src="https://github.com/user-attachments/assets/a468f2a1-0abf-4693-b0b5-9af350acb4fe" />
+)
 
 > PCA visualization of the 64-dimensional latent space learned by the autoencoder. Training and validation loss curves were examined to observe model convergence and identify possible problems like overfitting or underfitting.
 
@@ -174,7 +175,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Confusion Matrix
 
-![Confusion Matrix](2_confusion_matrix.png)
+![Confusion Matrix](2_confusion_matrix.png<img width="2251" height="1760" alt="2_confusion_matrix" src="https://github.com/user-attachments/assets/57a06384-8c47-469f-8a3e-c0f6b4e18ca5" />
+)
 
 > Confusion matrix analysis providing a comprehensive insight into classification results — encompassing true positives, false positives, true negatives, and false negatives. This assists in discovering any bias or inequity in the model's predictions.
 
@@ -182,7 +184,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### ROC Curve
 
-![ROC Curve](3_roc_curve.png)
+![ROC Curve](3_roc_curve.png<img width="2364" height="1762" alt="3_roc_curve" src="https://github.com/user-attachments/assets/fc3a3ff6-3858-477c-adc8-3f574ae6e72c" />
+)
 
 > ROC curve evaluating the classifier's ability to discriminate between cancerous and normal tissue samples across classification thresholds.
 
@@ -190,7 +193,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Performance Metrics
 
-![Performance Metrics](4_performance_metrics.png)
+![Performance Metrics](4_performance_metrics.png<img width="2964" height="1769" alt="4_performance_metrics" src="https://github.com/user-attachments/assets/b3a671c8-b6cc-4e42-a638-2fc1a7a37f39" />
+)
 
 > Performance comparison across training and validation, used alongside 5-fold cross-validation to assess robustness of the learned latent representations.
 
@@ -198,7 +202,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Gene Feature Importance
 
-![Gene Importance](gene_importance.png)
+![Gene Importance](gene_importance.png<img width="3562" height="2364" alt="gene_importance" src="https://github.com/user-attachments/assets/4a25c773-10f7-44d7-a138-cd208ac8c8fe" />
+)
 
 > Top genes ranked by their contribution scores derived from encoder input layer weights. Genes with higher influence on the latent space receive higher importance scores.
 
@@ -206,7 +211,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Dataset Comparison
 
-![Dataset Comparison](dataset_comparison.png)
+![Dataset Comparison](dataset_comparison.png<img width="4164" height="1770" alt="dataset_comparison" src="https://github.com/user-attachments/assets/5b8084c2-b04d-4f0d-8959-046a4c708d94" />
+)
 
 > Side-by-side comparison of the USA (GSE10072) and India (GSE30118) datasets, representing different geographical populations used for training and external validation.
 
