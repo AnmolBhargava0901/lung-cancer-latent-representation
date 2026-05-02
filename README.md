@@ -255,22 +255,22 @@ This classification bridges the gap between computational analysis and **precisi
 ```
 lung-cancer-genomic-ai/
 │
-├── 📄 dual_dataset_pipeline.py          # Full dual-dataset analysis (USA + India)
-├── 📄 final_publication_pipeline.py     # Publication-ready pipeline
+├──  dual_dataset_pipeline.py          # Full dual-dataset analysis (USA + India)
+├──  final_publication_pipeline.py     # Publication-ready pipeline
 │
-├── 📊 usa_lung_cancer_ml_ready.csv      # Processed USA dataset (GSE10072)
-├── 📊 india_lung_cancer_ml_ready.csv    # Processed India dataset (GSE30118)
-├── 📊 top_50_genes.csv                  # Top biomarker genes with importance scores
+├──  usa_lung_cancer_ml_ready.csv      # Processed USA dataset (GSE10072)
+├──  india_lung_cancer_ml_ready.csv    # Processed India dataset (GSE30118)
+├──  top_50_genes.csv                  # Top biomarker genes with importance scores
 │
-├── 📝 FINAL_SUMMARY.md                  # Detailed results and interpretation
-├── 📝 PUBLICATION_GUIDELINES.txt        # Manuscript reporting guidelines
+├──  FINAL_SUMMARY.md                  # Detailed results and interpretation
+├──  PUBLICATION_GUIDELINES.txt        # Manuscript reporting guidelines
 │
-├── 🖼️ 1_latent_space_pca.png            # PCA of autoencoder latent space
-├── 🖼️ 2_confusion_matrix.png            # Classification confusion matrix
-├── 🖼️ 3_roc_curve.png                   # ROC curve
-├── 🖼️ 4_performance_metrics.png         # Train / Validation performance comparison
-├── 🖼️ gene_importance.png               # Top gene feature importances
-└── 🖼️ dataset_comparison.png            # USA vs India dataset overview
+├──  1_latent_space_pca.png            # PCA of autoencoder latent space
+├──  2_confusion_matrix.png            # Classification confusion matrix
+├──  3_roc_curve.png                   # ROC curve
+├──  4_performance_metrics.png         # Train / Validation performance comparison
+├──  gene_importance.png               # Top gene feature importances
+└──  dataset_comparison.png            # USA vs India dataset overview
 ```
 
 ---
