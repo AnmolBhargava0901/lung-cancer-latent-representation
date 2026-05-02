@@ -47,20 +47,28 @@ The entire workflow maintains a balance between **predictive accuracy** and **bi
 
 High-quality and biologically relevant datasets were selected from the **National Centre for Biotechnology Information Gene Expression Omnibus (NCBI GEO)** to ensure diversity in population samples and robustness in model evaluation.
 
-| Dataset | Region | Samples | Composition |
-|---|---|---|---|
-| [GSE30118](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30118) | North-East India | 7 | 5 tumour, 2 pooled normal |
-| [GSE10072](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10072) | United States | 107 | 58 tumour, 49 non-tumour |
+| Dataset | Region | Samples | Composition | Access Link |
+|---|---|---|---|---|
+| GSE30118 | North-East India | 7 | 5 tumour, 2 pooled normal | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30118 |
+| GSE10072 | United States | 107 | 58 tumour, 49 non-tumour | https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10072 |
 
-The datasets represent **different geographical populations**, enabling the model to capture variation in gene expression patterns across diverse cohorts.
+### Dataset Source Details
+
+- **GSE30118 (North-East India)**  
+  This dataset represents gene expression profiles from lung cancer patients in the North-Eastern region of India, capturing region-specific biological variations.  
+  🔗 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30118  
+
+- **GSE10072 (USA)**  
+  A widely used lung cancer dataset from the United States, providing a larger sample size for robust model training and validation.  
+  🔗 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10072  
+
+The datasets represent **different geographical populations**, enabling the model to capture variation in gene expression patterns across diverse cohorts and improving generalizability.
 
 ### Data Preprocessing Steps
 
-- **Normalization** — Adjusted gene expression values across samples to reduce technical variations
-- **Noise Correction** — Removal of genes showing low variance
-- **Missing Values** — Handled using appropriate statistical methods
-
----
+- **Normalization** — Adjusted gene expression values across samples to reduce technical variations  
+- **Noise Correction** — Removal of genes showing low variance  
+- **Missing Values** — Handled using appropriate statistical methods  
 
 ##  Autoencoder Semantic Embedding Architecture
 
