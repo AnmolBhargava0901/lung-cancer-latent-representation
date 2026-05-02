@@ -1,10 +1,10 @@
-# 🧬 Lung Cancer Gene Expression Analysis — Autoencoder-Based Pipeline
+#  Lung Cancer Gene Expression Analysis — Autoencoder-Based Pipeline
 
 A machine learning framework for lung cancer gene expression analysis using a sequential pipeline that transforms raw gene expression data into therapy-oriented insights. The system merges supervised and unsupervised learning to ensure efficient feature extraction and reliable result validation.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [System Design](#-system-design)
 - [Datasets](#-datasets)
@@ -17,7 +17,7 @@ A machine learning framework for lung cancer gene expression analysis using a se
 
 ---
 
-## 🔬 System Design
+##  System Design
 
 The framework utilizes a **modular, step-by-step sequential pipeline** designed to convert raw gene expression data into meaningful, treatment-oriented insights. Each stage of the pipeline contributes to reducing data complexity while preserving essential biological information.
 
@@ -43,7 +43,7 @@ The entire workflow maintains a balance between **predictive accuracy** and **bi
 
 ---
 
-## 📦 Datasets
+##  Datasets
 
 High-quality and biologically relevant datasets were selected from the **National Centre for Biotechnology Information Gene Expression Omnibus (NCBI GEO)** to ensure diversity in population samples and robustness in model evaluation.
 
@@ -62,7 +62,7 @@ The datasets represent **different geographical populations**, enabling the mode
 
 ---
 
-## 🤖 Autoencoder Semantic Embedding Architecture
+##  Autoencoder Semantic Embedding Architecture
 
 The framework constructs a representation for the gene expression data using an **autoencoder**. The encoder layer maps high-dimensional data (~19,700 genes) into a low-dimensional latent space vector.
 
@@ -95,7 +95,7 @@ The autoencoder is trained to learn a compact and meaningful representation of h
 
 ---
 
-## 🧠 Classification-Based Feature Validation
+##  Classification-Based Feature Validation
 
 The learned **64-dimensional latent representations** are used as input to a minimalistic classifier to differentiate cancerous instances from normal instances.
 
@@ -126,7 +126,7 @@ Where `W` is the weight matrix, `b` is the bias, and `σ` is the sigmoid activat
 
 ---
 
-## 🧬 Gene Prioritization & Therapy Categorization
+##  Gene Prioritization & Therapy Categorization
 
 The framework extends beyond classification by identifying and interpreting genes that significantly contribute to lung carcinoma progression.
 
@@ -162,7 +162,7 @@ This classification bridges the gap between computational analysis and **precisi
 
 ---
 
-## 📊 Results & Visualizations
+##  Results & Visualizations
 
 ### Latent Space — PCA of Autoencoder Features
 
@@ -218,7 +218,7 @@ This classification bridges the gap between computational analysis and **precisi
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 ### Programming Environment
 
@@ -250,7 +250,7 @@ This classification bridges the gap between computational analysis and **precisi
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 lung-cancer-genomic-ai/
@@ -275,7 +275,7 @@ lung-cancer-genomic-ai/
 
 ---
 
-## 📄 License
+##  License
 
 This project is intended for academic and research use. Gene expression datasets are publicly available through NCBI GEO under their respective accession terms. Please cite the original data sources when publishing results derived from this pipeline.
 
