@@ -191,7 +191,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Performance Metrics
 
-![Performance Metrics](4_performance_metrics.png)
+![Performance Metrics](4_performance_metrics.png<img width="2964" height="1769" alt="4_performance_metrics" src="https://github.com/user-attachments/assets/b311c439-f3cf-46ba-b13e-3ad9203b663e" />
+)
 
 > Performance comparison across training and validation, used alongside 5-fold cross-validation to assess robustness of the learned latent representations.
 
@@ -199,7 +200,9 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Gene Feature Importance
 
-![Gene Importance](gene_importance.png)
+![Gene Importance](gene_importance.![Uploading 4_performance_metrics.png…]()
+<img width="3562" height="2364" alt="gene_importance" src="https://github.com/user-attachments/assets/ad975c32-dd2f-4edc-9a9b-97451d5a395a" />
+png)
 
 > Top genes ranked by their contribution scores derived from encoder input layer weights. Genes with higher influence on the latent space receive higher importance scores.
 
