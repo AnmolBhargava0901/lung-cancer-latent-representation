@@ -164,8 +164,7 @@ This classification bridges the gap between computational analysis and **precisi
 
 ## 📊 Results & Visualizations
 
-### Latent Space — PCA of Autoencoder Features<img width="4164" height="1770" alt="dataset_comparison" src="https://github.com/user-attachments/assets/8a694310-d4cb-4987-b200-d4c9ec09883b" />
-
+### Latent Space — PCA of Autoencoder Features
 
 ![Latent Space PCA](1_latent_space_pca.png)
 
@@ -191,8 +190,7 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Performance Metrics
 
-![Performance Metrics](4_performance_metrics.png<img width="2964" height="1769" alt="4_performance_metrics" src="https://github.com/user-attachments/assets/b311c439-f3cf-46ba-b13e-3ad9203b663e" />
-)
+![Performance Metrics](4_performance_metrics.png)
 
 > Performance comparison across training and validation, used alongside 5-fold cross-validation to assess robustness of the learned latent representations.
 
@@ -200,18 +198,15 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Gene Feature Importance
 
-![Gene Importance](gene_importance.![Uploading 4_performance_metrics.png…]()
-<img width="3562" height="2364" alt="gene_importance" src="https://github.com/user-attachments/assets/ad975c32-dd2f-4edc-9a9b-97451d5a395a" />
-png)
+![Gene Importance](gene_importance.png)
 
 > Top genes ranked by their contribution scores derived from encoder input layer weights. Genes with higher influence on the latent space receive higher importance scores.
 
 ---
 
-
 ### Dataset Comparison
 
-![Dataset Comparison](<img width="4164" height="1770" alt="dataset_comparison" src="https://github.com/user-attachments/assets/2b784c0b-bd18-476d-826a-c6c171b318dc" /> )
+![Dataset Comparison](dataset_comparison.png)
 
 > Side-by-side comparison of the USA (GSE10072) and India (GSE30118) datasets, representing different geographical populations used for training and external validation.
 
