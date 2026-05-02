@@ -206,7 +206,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Dataset Comparison
 
-![Dataset Comparison]("C:\Users\anmol\Downloads\dataset_comparison.png")
+![Dataset Comparison](<img width="4164" height="1770" alt="dataset_comparison" src="https://github.com/user-attachments/assets/60e0cd90-67bb-4e0c-b6e7-7ea516866f87" />
+)
 
 > Side-by-side comparison of the USA (GSE10072) and India (GSE30118) datasets, representing different geographical populations used for training and external validation.
 
