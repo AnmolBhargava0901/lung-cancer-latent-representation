@@ -175,8 +175,8 @@ This classification bridges the gap between computational analysis and **precisi
 
 ### Confusion Matrix
 
-![Confusion Matrix](2_confusion_matrix.png<img width="2251" height="1760" alt="2_confusion_matrix" src="https://github.com/user-attachments/assets/57a06384-8c47-469f-8a3e-c0f6b4e18ca5" />
-)
+<img width="2251" height="1760" alt="2_confusion_matrix" src="https://github.com/user-attachments/assets/57a06384-8c47-469f-8a3e-c0f6b4e18ca5" />
+
 
 > Confusion matrix analysis providing a comprehensive insight into classification results — encompassing true positives, false positives, true negatives, and false negatives. This assists in discovering any bias or inequity in the model's predictions.
 
